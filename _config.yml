@@ -1,15 +1,17 @@
-logo: Michele Pinto# add logo name
+logo: Michele Pinto - Medico Chirurgo - Proctologo # add logo name
 title: Michele Pinto - Medico Chirurgo
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Michele Pinto - Medico Chirurgo
+  Chirurgia Generale - Proctologia - Chirurgia della stipsi, emorroidi, ragadi
+  Sesto San Giovanni
+  +39-3298221437
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
-video: KeyboardTyping.mp4 # add banner video. Add your video file to the folder video
+video:  # add banner video. Add your video file to the folder video
+banner-image: stetoscopio.jpg
 banner-title: Medico Chirurgo # add banner title
 banner-desc: ColoProctologia - Chirurgia Generale # add banner description
 
@@ -36,7 +38,7 @@ discus_identifier: mr-brown # add your discus identifier
 mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Tracker
-analytics:
+analytics: UA-117320147-1
 
 # Paginate
 paginate: 12
@@ -51,3 +53,6 @@ gems:
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 theme: jekyll-theme-cayman
+
+sass:
+    sass_dir: _sass
